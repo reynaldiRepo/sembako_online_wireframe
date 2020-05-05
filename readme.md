@@ -4,5 +4,15 @@ ini adalah wireframe untuk tampilan dari aplikasi sembako online, dalam pembuata
 
 Dibawah merupakan beberapa tampilan untuk wireframe frontend aplikasi sembako online
 
-### home
-![alt text](https://github.com/reynaldiRepo/sembako_online_wireframe/blob/master/read_img/1.png "Logo Title Text 1")
+### 1
+![alt text](https://github.com/reynaldiRepo/sembako_online_wireframe/blob/master/read_img/1.png "home 1")
+
+### 2
+![alt text](https://github.com/reynaldiRepo/sembako_online_wireframe/blob/master/read_img/2.png "home 2")
+
+### 3
+![alt text](https://github.com/reynaldiRepo/sembako_online_wireframe/blob/master/read_img/3.png "home 3")
+
+### 4
+![alt text](https://github.com/reynaldiRepo/sembako_online_wireframe/blob/master/read_img/4.png "home 4")
+
