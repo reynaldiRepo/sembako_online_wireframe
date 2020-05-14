@@ -53,11 +53,11 @@
 								class="icon-shopping_cart"></span>[0]</a></li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown"
-							aria-haspopup="true" aria-expanded="false">Profile</a>
+							aria-haspopup="true" aria-expanded="false">Login | Register</a>
 						<div class="dropdown-menu" aria-labelledby="dropdown04">
-							<a class="dropdown-item" href="#">Manage Profile</a>
-							<a class="dropdown-item" href="#">Voucher</a>
-							<a class="dropdown-item" href="#">logout</a>
+							<button class="dropdown-item" href="#" style="cursor: pointer;" data-toggle="modal"
+								data-target=".modal-register">Register</button>
+							<button class="dropdown-item" href="#" style="cursor: pointer;" data-toggle="modal" data-target=".modal-login">Login</button>
 						</div>
 					</li>
 				</ul>
@@ -538,7 +538,8 @@
 						<h2 class="ftco-heading-2">Ada Pertayaan</h2>
 						<div class="block-23 mb-3">
 							<ul>
-								<li><span class="icon icon-map-marker"></span><span class="text">Universitas Trunojoyo Madura, Telang, Bangkalan, Jawa Timur</span></li>
+								<li><span class="icon icon-map-marker"></span><span class="text">Universitas Trunojoyo
+										Madura, Telang, Bangkalan, Jawa Timur</span></li>
 								<li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929
 											210</span></a></li>
 								<li><a href="#"><span class="icon icon-envelope"></span><span
@@ -565,6 +566,108 @@
 	</footer>
 
 
+	<!-- //register modal -->
+	<div class="modal fade modal-register" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="useraccountModalLabel">Register</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="row">
+					<div class="col-md-6 border-right">
+						<img src="./images/register_banner.png" class="img-fluid" style="width: 100%;">
+					</div>
+					<div class="col-md-6 pr-5">
+						<div class="row">
+							<div class="col-md-12">
+								<center>
+									<img src="./images/logo.png" alt="" class="img-fluid mt-3">
+								</center>
+								<div class="form-group">
+									<label>
+										Email
+									</label>
+									<input type="email" name="email" id="email_reg" class="form-control" required>
+								</div>
+								<div class="form-group">
+									<label>
+										Username
+									</label>
+									<input type="text" name="username" id="username_reg" class="form-control" required>
+								</div>
+								<div class="form-group">
+									<label>
+										Password
+									</label>
+									<input type="password" name="password" id="password_reg" class="form-control"
+										required>
+								</div>
+								<div class="form-group">
+									<div class="row">
+										<div class="col-md">
+											<input type="checkbox" name="terms_cond" id="terms_cond"><a
+												href="terms">Syarat Dan ketntuan</a>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<button type="button" class="btn btn-success">Register</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- //login modal -->
+	<div class="modal fade modal-login" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="useraccountModalLabel">Register</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="row">
+					<div class="col-md-12 px-5">
+						<div class="row">
+							<div class="col-md-12">
+								<center>
+									<img src="./images/logo.png" alt="" class="img-fluid">
+								</center>
+								<div class="form-group">
+									<label>
+										Email / Username
+									</label>
+									<input type="text" name="email_username" id="email_username_login" class="form-control" required>
+								</div>
+								<div class="form-group">
+									<label>
+										Password
+									</label>
+									<input type="password" name="password" id="password_login" class="form-control" required>
+								</div>
+								<div class="form-group">
+									<a href="" style="cursor: pointer;" data-toggle="modal" data-dismiss="modal" data-target=".modal-register">Belum punya akun ?</a>
+								</div>
+								<div class="form-group">
+									<button type="button" class="btn btn-success">Register</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-- loader -->
 	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
